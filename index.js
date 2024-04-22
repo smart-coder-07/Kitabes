@@ -16,7 +16,7 @@ app.use(express.json());
 
 
 const PORT = 4001 || 4000;
-const URI = "mongodb://localhost:27017/kitabe"
+const URI = "mongodb+srv://smart1atul:@Smart1atul@cluster0.amm97oz.mongodb.net/"
 
 //Connect to mongoDB
 
