@@ -22,7 +22,7 @@ const Course = () => {
         <div className="pt-28 items-center justify-center text-center ">
           <h1 className="text-2xl  md:text-4xl">
             We're delighted to have you{" "}
-            <span className="text-pink-500">Here! :)</span>
+            <span className="text-pink-500 dark:text-blue-500">Here! :)</span>
           </h1>
           <p className="mt-8 md:mt-12">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
@@ -32,7 +32,10 @@ const Course = () => {
             nostrum blanditiis optio! Commodi modi in tenetur iure dolorem
             quidem maiores provident repellat magnam!
           </p>
-          <Link to={"/"} className="btn mt-6 py-1 btn-secondary">
+          <Link
+            to={"/"}
+            className="btn mt-6 py-1 btn-secondary hover:bg-pink-800 hover:border-pink-800 dark:border-blue-500 dark:bg-blue-500 dark:hover:bg-blue-900 dark:hover:border-blue-900"
+          >
             Back
           </Link>
         </div>
