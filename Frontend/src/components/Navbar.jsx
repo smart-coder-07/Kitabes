@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link to={"/contact"}>Contact</Link>
       </li>
       <li>
-        <a>About</a>
+        <Link to={"/about"}>About</Link>
       </li>
     </>
   );
@@ -150,7 +150,7 @@ const Navbar = () => {
             ) : (
               <div>
                 <a
-                  className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-600 duration-300 cursor-pointer"
+                  className="bg-black dark:bg-blue-500 dark:hover:bg-blue-800 text-white px-3 py-2 rounded-md hover:bg-slate-600 duration-300 cursor-pointer"
                   onClick={() =>
                     document.getElementById("my_modal_3").showModal()
                   }

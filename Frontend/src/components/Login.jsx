@@ -105,7 +105,9 @@ const Login = () => {
               )}
             </div>
             <div className="mt-4 flex justify-between">
-              <button className="btn btn-secondary">Login</button>
+              <button className="btn btn-secondary hover:bg-pink-800 hover:border-pink-800 dark:bg-blue-500 dark:hover:bg-blue-800 dark:hover:border-blue-800 dark:border-blue-500">
+                Login
+              </button>
               <span className="mt-3 mx-2 ">
                 Not registered?{" "}
                 <Link to={"/signup"} className="link-primary underline">

@@ -9,12 +9,14 @@ const Banner = () => {
           <div className="space-y-12">
             <h1 className="text-4xl font-bold">
               Hello, welcomes here to learn something{" "}
-              <span className="text-pink-500">new everyday!!!</span>
+              <span className="text-pink-500 dark:text-blue-500">
+                new everyday!!!
+              </span>
             </h1>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-              iure beatae. Doloremque vitae inventore libero perferendis
-              repellat commodi qui provident labore.
+              We offer diverse books for learning, including both free and paid
+              categories, catering to various educational needs and interests.
+              Explore our range for your learning journey.
             </p>
             <label className="input input-bordered dark:border-white flex items-center gap-2 dark:bg-slate-900 ">
               <svg
@@ -33,7 +35,9 @@ const Banner = () => {
               />
             </label>
           </div>
-          <button className="btn mt-6 btn-secondary">Get Start</button>
+          <button className="btn mt-6 dark:bg-blue-500 hover:bg-pink-800 hover:border-pink-800 dark:hover:bg-blue-800 dark:hover:border-blue-800 dark:border-blue-500 btn-secondary">
+            Get Start
+          </button>
         </div>
         <div className="w-full order-1 md:w-1/2  ">
           <img
