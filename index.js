@@ -16,15 +16,12 @@ app.use(express.json());
 
 
 const PORT = 4001 || 4000;
-const URI = "mongodb+srv://smart1atul:@Smart1atul@cluster0.amm97oz.mongodb.net/"
+const URI = "mongodb+srv://smart1atul:atul1234@cluster0.amm97oz.mongodb.net/"
 
 //Connect to mongoDB
-
+  
 try {
-  mongoose.connect(URI,{
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  });
+  mongoose.connect(URI);
   console.log("Connected to mongoDB");
 } catch (error) {
   console.log(error);
