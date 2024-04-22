@@ -41,7 +41,7 @@ const Signup = () => {
   };
   return (
     <div className="flex h-screen items-center justify-center border-[2px] shadow-md">
-      <div className="w-[500px]">
+      <div className="w-[500px] ml-8">
         <div className="modal-box dark:bg-slate-900 dark:text-white">
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
