@@ -5,6 +5,7 @@ const kitabeSchema = mongoose.Schema({
     price:Number,
     category:String,
     image:String,
+    link:String,
     title:String
 })
 

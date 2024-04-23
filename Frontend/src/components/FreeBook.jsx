@@ -70,7 +70,7 @@ const FreeBook = () => {
         <div>
           <Slider {...settings}>
             {book.map((item) => (
-              <Cards item={item} key={item.id} />
+              <Cards item={item} key={item._id} />
             ))}
           </Slider>
         </div>
